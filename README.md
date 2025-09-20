@@ -142,7 +142,7 @@ When you're editing the name, you can enter digits (0 ~ 9) directly without havi
 * Better backlight times (inc always on)
 * Live DTMF decoder option, though the decoder needs some changes to become less prone to noise/speech
 * AIRCOPY RX'ing radio now requests packet resends from TX'ing radio if RX'ed packet is lost/corrupted
-* ..
+* MDC1200 support in a radio sub-$50! 
 
 # Symbol information
 
