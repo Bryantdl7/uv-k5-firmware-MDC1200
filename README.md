@@ -1,14 +1,11 @@
 # Open reimplementation of the Quansheng UV-K5 v2.1.27 firmware with MDC1200 support
 
-This repository is a cloned and customized version of DualTachyon's open firmware found here ..
+This repository is a cloned and customized version of oneofeleven's open firmware found here ..
+https://github.com/OneOfEleven/uv-k5-firmware-custom
 
-https://github.com/DualTachyon/uv-k5-firmware .. a cool achievement !
+Use this firmware/code ENTIRELY at your own risk. This firmware is totally experimental, however the dream is for it to be kinda stable(?)
 
-Use this firmware/code ENTIRELY at your own risk. This firmware is totally experimental, and at times will go completely tits up (break your radio).
-
-There is absolutely no guarantee that it will work in any way shape or form on your radio(s), it may even brick your radio(s).
-
-You're on your own.
+There is absolutely no guarantee that it will work in any way shape or form on your radio(s), it may even brick your radio(s). **You're on your own.**
 
 NO REFUNDS, ever !
 
