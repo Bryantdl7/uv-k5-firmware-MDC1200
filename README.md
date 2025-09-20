@@ -1,4 +1,4 @@
-# Open reimplementation of the Quan Sheng UV-K5 v2.1.27 firmware
+# Open reimplementation of the Quansheng UV-K5 v2.1.27 firmware with MDC1200 support
 
 This repository is a cloned and customized version of DualTachyon's open firmware found here ..
 
@@ -11,6 +11,12 @@ There is absolutely no guarantee that it will work in any way shape or form on y
 You're on your own.
 
 NO REFUNDS, ever !
+
+
+# How to use MDC1200
+Note: MDC1200 settings are specific to the channel you are working on if you are in memory mode. This means after you adjust your MDC settings to your liking, you MUST save your channel for the information to be saved. All you do is simply go to the menu option for channel save, press menu, press menu a second time, and then press it one additional time to confirm saving your changes. 
+1. The options are self-explanatory and found starting around menu option 41.
+2. BOT = before transmission EOT = end of transmission BOTH = both. 
 
 
 # Radio performance
