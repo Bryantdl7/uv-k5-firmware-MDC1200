@@ -142,14 +142,18 @@ When you're editing the name, you can enter digits (0 ~ 9) directly without havi
 
 <img src="/images/symbols.png" />
 
-# Compiler
+# Compiling the firmware
 
-arm-none-eabi GCC version 10.3.1 is recommended, which is the current version on Ubuntu 22.04.03 LTS.
-Other versions may generate a flash file that is too big.
-You can get an appropriate version from: https://developer.arm.com/downloads/-/gnu-rm
 
-clang may be used but isn't fully supported. Resulting binaries may also be bigger.
-You can get it from: https://releases.llvm.org/download.html
+
+Here's the APT packages you need for ubuntu 24:
+```
+sudo apt install python3-crcmod python3 python-is-python3 gcc-arm-none-eabi gcc-arm-none-eabi-source binutils-arm-none-eabi
+
+```
+
+Once you've done that, go into whatever directory you cloned the code into, from there, you will need to run the command make within the directory. If no errors are presented you compiled successfully. 
+
 
 # Building
 
@@ -162,6 +166,7 @@ make
 To compile directly in windows without the need of a linux virtual machine:
 
 ```
+0. These instructions are untested - I am compiling on linux, your mileage may vary. 
 1. Download and install "gcc-arm-none-eabi-10.3-2021.10-win32.exe" from https://developer.arm.com/downloads/-/gnu-rm
 2. Download and install "gnu_make-3.81.exe" from https://gnuwin32.sourceforge.net/packages/make.htm
 3. If need be (probably not), also download Dependency.zip that includes the library files from https://gnuwin32.sourceforge.net/packages/make.htm
