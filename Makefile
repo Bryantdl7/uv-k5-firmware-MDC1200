@@ -15,14 +15,14 @@ ENABLE_UART_DEBUG                := 0
 #
 # AirCopy 2.5 kB
 ENABLE_AIRCOPY                   := 0
-ENABLE_AIRCOPY_REMEMBER_FREQ     := 1
+ENABLE_AIRCOPY_REMEMBER_FREQ     := 0
 ENABLE_AIRCOPY_RX_REBOOT         := 0
 #
 # FM Radio 4.2 kB
 ENABLE_FMRADIO_64_76             := 0
 ENABLE_FMRADIO_76_90             := 0
 ENABLE_FMRADIO_76_108            := 0
-ENABLE_FMRADIO_875_108           := 1
+ENABLE_FMRADIO_875_108           := 0
 ENABLE_FMRADIO_64_108            := 0
 #
 # NOAA 1.2 kB
@@ -31,14 +31,14 @@ ENABLE_NOAA                      := 0
 ENABLE_VOICE                     := 0
 ENABLE_MUTE_RADIO_FOR_VOICE      := 0
 # Tx on Voice 1.0 kB
-ENABLE_VOX                       := 1
-ENABLE_VOX_MORE_SENSITIVE        := 1
+ENABLE_VOX                       := 0
+ENABLE_VOX_MORE_SENSITIVE        := 0
 # Tx Alarm 600 B
 ENABLE_ALARM                     := 0
 ENABLE_TX_TONE_HZ                := 1750
 #
 # MDC1200 2.8 kB
-ENABLE_MDC1200                   := 0
+ENABLE_MDC1200                   := 1
 ENABLE_MDC1200_SHOW_OP_ARG       := 1
 ENABLE_MDC1200_SIDE_BEEP         := 1
 #
@@ -99,7 +99,7 @@ ENABLE_SIDE_BUTT_MENU            := 0
 # Key Lock 400 B
 ENABLE_KEYLOCK                   := 0
 # panadapter 1.5kB
-ENABLE_PANADAPTER                := 1
+ENABLE_PANADAPTER                := 0
 ENABLE_PANADAPTER_PEAK_FREQ      := 0
 # single VFO 1.5kB
 ENABLE_SINGLE_VFO_CHAN           := 1
