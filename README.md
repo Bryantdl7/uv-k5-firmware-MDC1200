@@ -155,13 +155,11 @@ sudo apt install python3-crcmod python3 python-is-python3 gcc-arm-none-eabi gcc-
 Once you've done that, go into whatever directory you cloned the code into, from there, you will need to run the command make within the directory. If no errors are presented you compiled successfully. 
 
 
-# Building
 
-To build the firmware, you need to fetch the submodules and then run make:
-```
-git submodule update --init --recursive --depth=1
-make
-```
+
+
+
+
 
 To compile directly in windows without the need of a linux virtual machine:
 
