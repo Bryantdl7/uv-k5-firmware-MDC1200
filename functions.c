@@ -277,13 +277,15 @@ void FUNCTION_Select(function_type_t Function)
 //							SYSTEM_DelayMs(120);
 //							BK4819_stop_tones(true);
 						#endif
-						SYSTEM_DelayMs(30);
+						SYSTEM_DelayMs(400); //this line is how long that the MDC ID will wait to fire off after kicking the PTT button, this is not a linear milliseconds approach, 1875 = roughly 2.03 seconds, and 700 = 1.00 seconds, for example. 
+						//					Motorola seems to like a default of 400, and that's what seems to actually make it squawk properly in a CTCSS environment. 
+						//					NOTE: You can go as low as 30 and still get a clean MDC ID decode on a Motorola CDM1250, but nobody will hear the BOT squawk over their radios, but makes it not industry standard for how moto works. 
 	
 						BK4819_send_MDC1200(MDC1200_OP_CODE_PTT_ID, 0x80, g_eeprom.config.setting.mdc1200_id, true);
 	
 						#ifdef ENABLE_MDC1200_SIDE_BEEP
 							BK4819_start_tone(880, 10, true, true);
-							SYSTEM_DelayMs(120);
+							SYSTEM_DelayMs(120); //controls how long to wait before ready to talk beep happens, you probably dont want to play with this :)
 							BK4819_stop_tones(true);
 						#endif
 					}
