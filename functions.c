@@ -277,7 +277,7 @@ void FUNCTION_Select(function_type_t Function)
 //							SYSTEM_DelayMs(120);
 //							BK4819_stop_tones(true);
 						#endif
-						SYSTEM_DelayMs(400); //this line is how long that the MDC ID will wait to fire off after kicking the PTT button, this is not a linear milliseconds approach, 1875 = roughly 2.03 seconds, and 700 = 1.00 seconds, for example. 
+						SYSTEM_DelayMs(350); //this line is how long that the MDC ID will wait to fire off after kicking the PTT button, this is not a linear milliseconds approach, 1875 = roughly 2.03 seconds, and 700 = 1.00 seconds, for example. 
 						//					Motorola seems to like a default of 400, and that's what seems to actually make it squawk properly in a CTCSS environment. 
 						//					NOTE: You can go as low as 30 and still get a clean MDC ID decode on a Motorola CDM1250, but nobody will hear the BOT squawk over their radios, but makes it not industry standard for how moto works. 
 	
