@@ -97,7 +97,7 @@ ENABLE_TX_AUDIO_BACKLIGHT        := 0
 # Side Button Menu 300 B
 ENABLE_SIDE_BUTT_MENU            := 0
 # Key Lock 400 B
-ENABLE_KEYLOCK                   := 0
+ENABLE_KEYLOCK                   := 1
 # panadapter 1.5kB
 ENABLE_PANADAPTER                := 0
 ENABLE_PANADAPTER_PEAK_FREQ      := 0
