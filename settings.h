@@ -211,7 +211,7 @@ typedef struct {
 	// [11]
 	struct {
 		uint8_t tx_offset_dir:2;             // 0=none  1=neg  2=pos
-		uint8_t mdc1200_mode:0;              // bryantdl7  0=none  1=bot  2=eot  3=both //set to 0 to prevent default from being enabled on new radios
+		uint8_t mdc1200_mode:2;              // bryantdl7  0=none  1=bot  2=eot  3=both 
 		uint8_t mod_mode:2;                  // 0=FM  1=AM  2=DSB
 		uint8_t unused4:2;                   //
 	};
@@ -227,7 +227,7 @@ typedef struct {
 	// [13]
 	struct {
 		uint8_t dtmf_decoding_enable:1;      // 0=disabled  1=enabled
-		uint8_t dtmf_ptt_id_tx_mode:0;       // 0=none  1=bot  2=eot  3=both  4=apollo
+		uint8_t dtmf_ptt_id_tx_mode:3;       // 0=none  1=bot  2=eot  3=both  4=apollo
 		uint8_t squelch_level:4;             // 1of11   0 = use main squelch level, 1 ~ 9 per channel squelch
 	};
 	// [14]
