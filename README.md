@@ -1,3 +1,5 @@
+# HELP WANTED: LET'S GET MDC SUPPORT INTO CHIRP: https://chirpmyradio.com/issues/12176
+
 # Open reimplementation of the Quansheng UV-K5 v2.1.27 firmware with MDC1200 support
 
 This repository is a cloned and customized version of oneofeleven's open firmware found here ..
